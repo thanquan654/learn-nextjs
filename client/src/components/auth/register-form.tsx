@@ -70,7 +70,6 @@ const RegisterForm = (
 		},
 	})
 	const onSubmit = async (data: RegisterFormType) => {
-		console.log(data)
 		const result = await registerUser(data)
 
 		console.log('🚀 ~ file: register-form.tsx:68 ~ result:', result)
